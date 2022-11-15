@@ -12,6 +12,6 @@ export default createGlobalStyle`
     justify-content: center;
     align-items: center;
 
-    background-color: #261654;
+    background-color: ${({ theme }) => theme.colors.background};
   }
 `;
