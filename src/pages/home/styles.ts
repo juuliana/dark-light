@@ -15,5 +15,5 @@ export const Title = styled.span`
   font-family: Montserrat;
   font-weight: 700;
 
-  color: white;
+  color: ${({ theme }) => theme.colors.text};
 `;
